@@ -1,38 +1,40 @@
 header 
     background-color: #202020
-    min-height: 76px
+    min-height: 60px
     position: fixed
     width: 100%
-    .nav 
-        &_logo 
-            padding: 20px 0
+    .nav          
+        &_link 
+            padding: 20px 15px
             height: 68px
-            display: block
-            img
+            img 
                 max-height: 28px
-        &_block 
-            flex-direction: row
-        
-            
-
-    nav 
-        margin-top: 4px
-        display: flex
-        justify-content: space-between
-        flex-direction: row
-        align-items: center
-        .menu 
-            margin: 0
-            padding: 0
-            list-style-type: none
+        &_menu 
+            .menu 
+                padding: 0
+                margin: 0
+                display: flex
+                flex-direction: row 
+                justify-content: space-between  
+                list-style-type: none
+                &_link 
+                    color: #fff
+                    text-transform: uppercase 
+                    padding: 20px 15px  
+                    font-size: 14px
+        &_btns 
             display: flex
             flex-direction: row 
-            align-items: center  
-            &_link 
-                text-transform: uppercase
-                color: white
-                padding: 0 24px
-
+            align-items: center
+            justify-content: flex-end
+            height: 68px
+        &_btn 
+            padding: 23px 18px           
+            &_img
+                max-height: 25px
+nav 
+    .row 
+        align-items: center
 .about 
-    height: 1200px
-    background-color: black
+    background-color: black 
+    height: 1300px
