@@ -1,0 +1,23 @@
+* {
+  font-family: "Inter";
+}
+
+header {
+  background-color: #202020;
+  height: 75px;
+}
+header .nav_logo img {
+  max-height: 27px;
+}
+header .nav_block {
+  flex-direction: row;
+}
+header .nav_link {
+  text-transform: uppercase;
+}
+header nav {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
