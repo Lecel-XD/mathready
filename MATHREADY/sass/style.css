@@ -1,11 +1,13 @@
 * {
   font-family: "Inter";
+  color: #fff;
 }
 
 header {
+  position: fixed;
+  z-index: 999;
   background-color: #202020;
   min-height: 60px;
-  position: fixed;
   width: 100%;
 }
 header .nav_link {
@@ -48,6 +50,34 @@ nav .row {
 }
 
 .about {
-  background-color: black;
-  height: 1300px;
+  position: relative;
+  top: 68px;
+  min-height: 537px;
+  background: #121212;
+  padding-top: 82px;
+}
+.about_info {
+  margin: 0 auto;
+  max-width: 881px;
+  background: #191919;
+  border-radius: 55px;
+  padding: 26px 35px;
+}
+.about_info_img {
+  display: block;
+  max-height: 46px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.about_info p {
+  line-height: 23px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about_info p strong {
+  font-weight: 700;
+}
+.about_info p a {
+  color: #fff;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */
