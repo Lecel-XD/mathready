@@ -1,7 +1,7 @@
 header 
     position: fixed
     z-index: 999
-    background-color: #202020
+    background-color: $third_color
     min-height: 60px
     width: 100%
     .nav          
@@ -50,7 +50,7 @@ nav
     &_info 
         margin: 0 auto
         max-width: 881px
-        background: #191919
+        background: $second_color
         border-radius: 55px
         padding: 26px 35px
         &_img 
@@ -60,6 +60,7 @@ nav
             margin-bottom: 32px
             cursor: pointer
         p 
+            @include main_text
             line-height: 23px
             margin-bottom: 10px
             text-align: center
@@ -111,6 +112,19 @@ nav
         @include header
         text-align: center
         margin-top: 66px
+    &_algebra 
+        position: relative
+        img 
+            display: block
+            position: absolute
+            top: 41px
     .algebra 
         &_header 
             @include category_header
+            color: #ce5f5f
+        &_subheader 
+    &_item 
+        max-width: 1038px
+        margin: 0 auto
+
+

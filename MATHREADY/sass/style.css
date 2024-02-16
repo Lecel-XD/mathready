@@ -75,6 +75,8 @@ nav .row {
   cursor: pointer;
 }
 .about_info p {
+  font-size: 17px;
+  font-weight: 500;
   line-height: 23px;
   margin-bottom: 10px;
   text-align: center;
@@ -144,8 +146,21 @@ nav .row {
   text-align: center;
   margin-top: 66px;
 }
+.category_algebra {
+  position: relative;
+}
+.category_algebra img {
+  display: block;
+  position: absolute;
+  top: 41px;
+}
 .category .algebra_header {
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #ce5f5f;
+}
+.category_item {
+  max-width: 1038px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
