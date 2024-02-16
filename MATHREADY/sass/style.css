@@ -163,4 +163,15 @@ nav .row {
 .category_item {
   max-width: 1038px;
   margin: 0 auto;
+}
+
+.fifth {
+  background-color: #121212;
+}
+.fifth h1 {
+  margin-top: 67px;
+}
+
+.arrow {
+  max-height: 84px;
 }/*# sourceMappingURL=style.css.map */
