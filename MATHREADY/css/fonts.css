@@ -55,8 +55,9 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Handelson-Six';
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
-    src: url(../fonts/handelsonsix_cyr_six.otf) format("otf");
+    src: url(../fonts/handelson_six_cyr_six.woff) format("woff"), url(../fonts/handelson_six_cyr_six.woff2) format("woff2");
 }
