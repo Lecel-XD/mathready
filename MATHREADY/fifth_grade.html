@@ -42,15 +42,15 @@
         <h1>математика</h1>
         <h2>5 класс</h2>
         <section class="natural_numbers">
-            <div class="section_header"><p>Натуральные числа</p></div>
-            <div class="section_illustration">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ...,</div>
+            <div class="theme_box"><h3 class="theme_text">Натуральные числа</h3></div>
+            <div class="yellow_illustration numbers">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ...,</div>
             <img src="img/arrow.png" alt="" class="arrow">
-            <p class="section_handelson">В натуральном ряду есть первое число 1, но нет последнего</p>
-            <p class="section_term"><strong>Натуральные числа</strong> – числа, которые мы используем при счете</p>
-            <p class="section_term"><strong>Ряд натуральных чисел (натуральный ряд)</strong> – натуральные числа, записанные в порядке возрастания без пропусков</p>
-            <div class="center_block"><p class="center_term">Нуль НЕ считают натуральным числом</p></div>
+            <p class="comment nat_first">В натуральном ряду есть первое число 1, но нет последнего</p>
+            <p class="term"><strong>Натуральные числа</strong> – числа, которые мы используем при счете</p>
+            <p class="term"><strong>Ряд натуральных чисел (натуральный ряд)</strong> – натуральные числа, записанные в порядке возрастания без пропусков</p>
+            <div class="box_center zero"><p class="text_center">Нуль НЕ считают натуральным числом</p></div>
             <div class="ranks">
-                <div class="numbers">
+                <div class="rank">
                     <p>1</p>
                     <p>10</p>
                     <p>100</p>
@@ -79,70 +79,145 @@
                     <p>– сто миллиардов</p>
                 </div>
             </div>
-            <div class="multi_single_digit">
-                <div class="main">
-                    <p class="p_1">однозначные</p>
-                    <p class="p_2">многозначные</p>
+            <div class="single_digit">
+                <div class="main_digit">
+                    <p class="single">однозначные</p>
+                    <p class="plenty">многозначные</p>
                 </div>
                 <span class="bracket_1"></span>
                 <span class="bracket_2"></span>
-                <div class="second">
+                <div class="number_digit">
                     <p>1, 2, 3</p>
                     <p>21, 75, 99 – двузначные</p>
                     <p>521, 796 – трёхзначные</p>
-                    <p class="p_last">и т.д.</p>
+                    <p class="">и т.д.</p>
                 </div>
             </div>
-            <img src="img/numbers_ranks.png" alt="numbers_ranks" class="numbers_ranks">
+            <img src="img/numbers_ranks.png" alt="numbers_ranks" class="rank_numbers">
             <div class="every_natural">
-                <div class="center_block">
-                    <p class="center_term">Каждое натуральное число можно записать в виде суммы разрядных слагаемых</p>
+                <div class="box_center every_nat">
+                    <p class="text_center">Каждое натуральное число можно записать в виде суммы разрядных слагаемых</p>
                 </div>
-                <p class="center_term">89 = 8 · 10 + 9 · 1</p>
-                <p class="center_term">3278 = 3 · 1000 + 2 · 100 + 7 · 10 + 8 · 1</p>
+                <p class="examples">89 = 8 · 10 + 9 · 1</p>
+                <p class="examples">3278 = 3 · 1000 + 2 · 100 + 7 · 10 + 8 · 1</p>
+            </div>
+            <div class="box_center whole">
+                <p class="text_center">Натуральное число = целое положительное число</p>
             </div>
         </section>
-        <section class="natural_actions">
-            <div class="section_header"><p>Действия с натуральными числами</p></div>
-            <div class="action_name">Сложение</div>
-            <div class="left_border_content_center actions_center">
-                <p class="summ">8 + 3 = 11</p>
-                <div class="definition">
-                    <p>8 – слагаемое</p>
-                    <p>3 – слагаемое</p>
-                    <p> 11 – сумма</p>
+        <section class="comparison_nat">
+            <div class="theme_box">
+                <h3 class="theme_text">Сравнение натуральных чисел</h3>
+            </div>
+            <div class="term bigger">Из двух натуральных чисел больше то, которое в ряду натуральных чисел стоит правее (дальше от начала)</div>
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="term">Числа удобно представлять точками прямой. Для этого задают луч, выходящий из точки O в направлении, отмеченном стрелкой, и отрезок, длину которого принимают за единицу. Этот отрезок называют единичным отрезком.
+                        Из двух натуральных чисел больше то, которое на координатном луче находится правее.
+                        </p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="img/number_line.png" alt="number line" class="number_line">
+                    </div>
                 </div>
             </div>
-            <div class="left_border w_500">
-                <p class="center_term">От перестановки слагаемых сумма не меняется</p>
+            <div class="term">• Каждое натуральное число a больше нуля; это записывают так: a > 0</div>
+            <div class="term">• Число, большее нуля, называют положительным</div>
+            <div class="term">• Из a < b и b < c следует, что a < c</div>
+        </section>
+        <section class="actions_with_naturals">
+            <div class="theme_box">
+                <div class="theme_text">Действия с натуральными числами</div>
             </div>
-            <div class="sochetat">
-                <div class="rule_name">Сочетательный закон сложения</div>
-                <div class="main_text">Чтобы к сумме двух чисел прибавить третье число, можно к первому числу прибавить сумму второго и третьего чисел</div>
-                <div class="formule">(a + b) + c = a + (b + c)</div>
-            </div>
-            <div class="sochetat">
-                <div class="rule_name">Переместительный закон</div>
-                <div class="main_text">В сумме нескольких слагаемых можно менять слагаемые местами и заключать их в скобки любым образом</div>
-                <div class="formule">1 + 2 + 3 + 4 = (1 + 3) + (2 + 4)</div>
-            </div>
-            <div class="action_name">Вычитание</div>
-            <div class="left_border_content_center actions_center">
-                <p class="summ">7 - 4 = 3</p>
-                <div class="definition">
-                    <p>7 – уменьшаемое</p>
-                    <p>4 – вычитаемое</p>
-                    <p>3 – разность</p>
+            <div class="actions">
+                <div class="action start">
+                    <div class="wrapper">
+                        <h4>сложение</h4>
+                        <p class="example">5 + 3 = 8</p>
+                        <div class="elements">
+                            <p>5 – слагаемое</p>
+                            <p>3 – слагаемое</p>
+                            <p>8 – сумма</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="action_name">Умножение</div>
-            <div class="left_border_content_center factor">
-                <p class="summ">3 · 4 = 4 + 4 + 4 = 12</p>
-                <div class="definition">
-                    <p>3 – множитель</p>
-                    <p>4 – множитель</p>
-                    <p>12 – произведение</p>
+                <div class="action">
+                    <div class="wrapper">
+                        <h4>вычитание</h4>
+                        <p class="example">11 - 4 = 7</p>
+                        <div class="elements">
+                            <p>11 – уменьшаемое</p>
+                            <p>4 – вычитаемое</p>
+                            <p>7 – разность</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="action exponentiation">
+                    <div class="wrapper">
+                        <h4>возведение в степень</h4>
+                        <p class="example">4<sup>3</sup> = 4 · 4 · 4</p>
+                        <div class="elements">
+                            <p>4 – основание степени</p>
+                            <p>3 – показатель степени</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="action">
+                    <div class="wrapper">
+                        <h4>умножение</h4>
+                        <p class="example">4 · 3 = 4 + 4 + 4 = 12</p>
+                        <div class="elements">
+                            <p>4 – множитель</p>
+                            <p>3 – множитель</p>
+                            <p>12 – произведение</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="action start">
+                    <div class="wrapper">
+                        <h4>деление</h4>
+                        <p class="example">15 : 5 = 3</p>
+                        <div class="elements">
+                            <p>15 – делимое</p>
+                            <p>5 – делитель</p>
+                            <p>3 – частное</p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="addition_rule box">
+                <h4 class="module">Переместительный закон сложения</h4>
+                <p class="m">От перестановки слагаемых сумма не меняется</p>
+                <div class="yellow_subheader">a + b = b + a </div>
+            </div>
+            <div class="addition_rule box">
+                <h4 class="module">Сочетательный закон сложения</h4>
+                <p class="m">Чтобы к сумме двух чисел прибавить третье число, можно к первому числу прибавить сумму второго и третьего чисел </p>
+                <div class="yellow_subheader">(a + b) + c = a + (b + c)</div>
+            </div>
+            <div class="box">
+                <p class="m">В сумме нескольких слагаемых можно менять слагаемые местами и заключать их в скобки любым образом</p>
+            </div>
+            <div class="addition_rule box">
+                <h4 class="module">Переместительный закон умножения</h4>
+                <p class="m">От перестановки множителей произведение не меняется</p>
+                <div class="yellow_subheader">a · b = b · a</div>
+            </div>
+            <div class="addition_rule box">
+                <h4 class="module">Сочетательный закон умножения</h4>
+                <p class="m">Чтобы произведение двух чисел умножить на третье число, можно первое число умножить на произведение второго и третьего чисел</p>
+                <div class="yellow_subheader">(a · b) · c = a · (b · c)</div>
+            </div>
+            <div class="box">
+                <p class="m">В произведении нескольких множителей можно менять местами множители и заключать их в скобки любым способом</p>
+            </div>
+            <div class="addition_rule box">
+                <h4 class="module">Распределительный закон</h4>
+                <p class="m">Чтобы число умножить на сумму двух чисел, можно это число умножить на каждое слагаемое и полученных произведения сложить</p>
+                <div class="yellow_subheader mb">a · (b + c) = a · b + a · c</div>
+                <p class="brackets">• a · (b + c) = a · b + a · c – раскрытие скобок</p>
+                <p class="brackets">• a · b + a · c  =  a · (b + c) – вынесение общего множителя за скобки</p>
             </div>
         </section>
     </div>
