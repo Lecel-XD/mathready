@@ -67,13 +67,14 @@
     display: flex
     flex-direction: row
     justify-content: center
+    margin-top: 30px
     .theme_btn 
-        margin: 20px
-        border-radius: 32px
+        display: inline-block
+        margin: 30px 20px
+        border-radius: 30px
         background-color: #c75c5c
         height: 40px
-        width: 250px
-        padding: 7px
+        padding: 9px 30px
         text-transform: uppercase
         text-align: center
         display: block
@@ -81,6 +82,8 @@
         a 
             color: #fff
             display: block
+            font-weight: 500
+            font-size: 15px
 
 
 .fifth
@@ -266,6 +269,28 @@
             padding: 0 0 0 35px
         .finish 
             margin-bottom: 70px
+        .division_rules_box
+            margin: 30px 0
+            h4 
+                font-size: 20px
+                text-transform: uppercase
+                font-weight: 500
+                text-align: center
+                margin: 10px 0
+            .wrapper 
+                display: flex
+                justify-content: space-between
+                .lighter_box 
+                    background-color: $third_color
+                    border-radius: 10px
+                    margin: 20px 0
+                    padding: 15px
+                    color: $yellow_color
+                    font-weight: 700
+                .first_column
+                    max-width: 450px
+                .second_column
+                    max-width: 550px
 
         .action 
             .wrapper
@@ -392,7 +417,7 @@
                     max-width: 500px  
                 .second_column
                     max-width: 500px   
-            &_rules 
+            &_rules
                 margin: 10px 0    
             &_rest_rules 
                 margin: 0 auto
@@ -423,6 +448,46 @@
             ul 
                 max-width: 700px
                 margin: 0
+
+    .tasks_on_parts 
+
+        .task_1
+            position: relative
+            left: 35px 
+        .yellow_subheader 
+            margin: 30px 0 20px 0
+        .task_2 
+            position: relative
+            left: 35px
+            .parts_img 
+                max-width: 500px
+                margin: 30px 0 50px 0
+            .episodes 
+                p 
+                    margin: 0
+                .answer 
+                    margin: 20px 0 0 0  
+
+    .summ_tasks 
+        .yellow_subheader
+            margin-top: 30px
+            margin-bottom: 20px
+        .task_3 
+            position: relative
+            left: 35px 
+        .episodes 
+            p 
+                margin: 0
+            .answer 
+                margin: 20px 0 0 0  
+        &_img 
+            max-width: 500px
+            margin: 30px 0 50px 0
+    .solution 
+        font-weight: 500
+        text-transform: uppercase
+        font-size: 20px
+        margin-bottom: 10px
         
 
     

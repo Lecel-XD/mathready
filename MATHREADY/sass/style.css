@@ -259,14 +259,15 @@ nav .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 30px;
 }
 .theme_btns .theme_btn {
-  margin: 20px;
-  border-radius: 32px;
+  display: inline-block;
+  margin: 30px 20px;
+  border-radius: 30px;
   background-color: #c75c5c;
   height: 40px;
-  width: 250px;
-  padding: 7px;
+  padding: 9px 30px;
   text-transform: uppercase;
   text-align: center;
   display: block;
@@ -275,6 +276,8 @@ nav .row {
 .theme_btns .theme_btn a {
   color: #fff;
   display: block;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .fifth {
@@ -500,6 +503,34 @@ nav .row {
 .fifth .actions_with_naturals .finish {
   margin-bottom: 70px;
 }
+.fifth .actions_with_naturals .division_rules_box {
+  margin: 30px 0;
+}
+.fifth .actions_with_naturals .division_rules_box h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0;
+}
+.fifth .actions_with_naturals .division_rules_box .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth .actions_with_naturals .division_rules_box .wrapper .lighter_box {
+  background-color: #202020;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 15px;
+  color: #d1ae59;
+  font-weight: 700;
+}
+.fifth .actions_with_naturals .division_rules_box .wrapper .first_column {
+  max-width: 450px;
+}
+.fifth .actions_with_naturals .division_rules_box .wrapper .second_column {
+  max-width: 550px;
+}
 .fifth .actions_with_naturals .action .wrapper {
   background-color: #191919;
   border-radius: 10px;
@@ -689,4 +720,49 @@ nav .row {
 .fifth .actions_order_container ul {
   max-width: 700px;
   margin: 0;
+}
+.fifth .tasks_on_parts .task_1 {
+  position: relative;
+  left: 35px;
+}
+.fifth .tasks_on_parts .yellow_subheader {
+  margin: 30px 0 20px 0;
+}
+.fifth .tasks_on_parts .task_2 {
+  position: relative;
+  left: 35px;
+}
+.fifth .tasks_on_parts .task_2 .parts_img {
+  max-width: 500px;
+  margin: 30px 0 50px 0;
+}
+.fifth .tasks_on_parts .task_2 .episodes p {
+  margin: 0;
+}
+.fifth .tasks_on_parts .task_2 .episodes .answer {
+  margin: 20px 0 0 0;
+}
+.fifth .summ_tasks .yellow_subheader {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.fifth .summ_tasks .task_3 {
+  position: relative;
+  left: 35px;
+}
+.fifth .summ_tasks .episodes p {
+  margin: 0;
+}
+.fifth .summ_tasks .episodes .answer {
+  margin: 20px 0 0 0;
+}
+.fifth .summ_tasks_img {
+  max-width: 500px;
+  margin: 30px 0 50px 0;
+}
+.fifth .solution {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
