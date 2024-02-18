@@ -2,9 +2,8 @@
     height: 66px
     background-color: $second_color
     border-radius: 32px
-    display: flex
-    justify-content: center
-    align-items: center
+    display: inline-block
+    padding: 10px 35px
     margin-top: 30px
 .theme_text
     color: #c75c5c
@@ -64,6 +63,24 @@
     font-weight: 500
     font-size: 20px
     margin-bottom: 2px
+.theme_btns 
+    display: flex
+    flex-direction: row
+    justify-content: center
+    .theme_btn 
+        margin: 20px
+        border-radius: 32px
+        background-color: #c75c5c
+        height: 40px
+        width: 250px
+        padding: 7px
+        text-transform: uppercase
+        text-align: center
+        display: block
+        font-weight: 700
+        a 
+            color: #fff
+            display: block
 
 
 .fifth
@@ -91,7 +108,6 @@
     .natural_numbers 
         position: relative
         .theme_box 
-            width: 350px
             margin-bottom: 30px
         .arrow 
             transform: rotate(180deg)
@@ -222,7 +238,6 @@
             width: 750px
     .comparison_nat 
         .theme_box 
-            width: 500px
             margin-top: 50px
         .bigger 
             margin-top: 30px
@@ -242,7 +257,6 @@
                     right: -60px
     .actions_with_naturals 
         .theme_box
-            width: 570px
             margin-bottom: 40px
         .actions 
             display: flex
@@ -250,6 +264,8 @@
             align-items: flex-start
             justify-content: space-between
             padding: 0 0 0 35px
+        .finish 
+            margin-bottom: 70px
 
         .action 
             .wrapper
@@ -276,6 +292,68 @@
                     font-size: 17px
                     font-weight: 500
         .exponentiation
+            &_more 
+                padding: 15px
+                display: flex
+                flex-direction: row
+                justify-content: center
+                align-items: center
+                margin: 30px auto 50px auto
+                width: 800px
+                .lighter 
+                    background-color: $third_color
+                    border-radius: 10px
+                    padding: 10px
+                    display: inline-block
+                    p 
+                        margin: 0
+                        line-height: 23px
+                        font-weight: 700
+                .exp_rules 
+                    width: 480px
+                    padding: 10px 25px 10px 25px
+                    height: 342px
+                    margin: 0 auto
+                    text-align: center
+                    h4 
+                        font-weight: 500
+                        text-transform: uppercase
+                        margin-bottom: 30px
+                        font-size: 20px
+                    .n_raz 
+                        position: relative
+                        left: -25px
+                        top: -10px
+                    .a_in_n 
+                        .bracket_3 
+                            width: 110px
+                            height: 2px
+                            background-color: #fff
+                            display: block
+                            position: relative
+                            left: 138px
+                            top: -10px
+                            &::before
+                                content: ''
+                                display: block
+                                height: 7px
+                                width: 2px
+                                background-color: #fff
+                                position: relative
+                                top: -7px
+                            &::after
+                                content: ''
+                                display: block
+                                height: 7px
+                                width: 2px
+                                background-color: #fff
+                                position: relative
+                                left: 108px
+                                top: -14px
+                .lighter_box 
+                    margin-top: 30px
+                    p 
+                        margin: 5px 0
             .wrapper
                 width: 280px
         .start 
@@ -296,7 +374,55 @@
                 margin-bottom: 20px
             .brackets 
                 margin: 0
-            
-
+        .division 
+            padding: 20px
+            .yellow_subheader 
+                margin: 0 0 20px 0    
+                text-align: center
+            h4 
+                text-transform: uppercase
+                font-size: 20px
+                font-weight: 500
+                text-align: center
+            .wrapper 
+                display: flex
+                flex-direction: row 
+                justify-content: space-between
+                .first_column
+                    max-width: 500px  
+                .second_column
+                    max-width: 500px   
+            &_rules 
+                margin: 10px 0    
+            &_rest_rules 
+                margin: 0 auto
+                max-width: 800px 
+            &_with_rest 
+                padding: 20px 20px 20px 20px
+                h4 
+                    font-size: 20px
+                    font-weight: 500
+                    text-transform: uppercase
+                    text-align: center
+                .yellow_subheader 
+                    margin-bottom: 20px  
+                    text-align: center                      
+    .actions_order
+        margin-bottom: 50px
+        &_container
+            display: flex
+            flex-direction: row 
+            justify-content: space-between
+            align-items: center
+            padding: 20px
+            ol 
+                max-width: 700px
+                margin: 0
+            .actions_order_definition
+                max-width: 700px
+            ul 
+                max-width: 700px
+                margin: 0
+        
 
     
