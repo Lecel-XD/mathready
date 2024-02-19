@@ -2,46 +2,47 @@ header
     position: fixed
     z-index: 999
     background-color: $third_color
-    min-height: 60px
     width: 100%
-    .nav          
-        &_link 
-            padding: 20px 15px
-            height: 68px
-            img 
-                max-height: 28px
-        &_menu 
-            .menu 
-                padding: 0
-                margin: 0
-                display: flex
-                flex-direction: row 
-                justify-content: space-between  
-                list-style-type: none
-                &_link 
-                    color: #fff
-                    text-transform: uppercase 
-                    padding: 20px 15px  
-                    font-size: 14px
-        &_btns 
-            display: flex
-            flex-direction: row 
-            align-items: center
-            justify-content: flex-end
-            height: 68px
-        &_btn 
-            cursor: pointer
-            padding: 12px 18px           
-            span 
-                display: block
-                margin: 7px 0
-                width: 40px
-                height: 3px
-                background-color: #fff
-                border-radius: 3px
-nav 
-    .row 
-        align-items: center
+    min-height: 68px
+    .logo
+        position: absolute
+        left: 25px
+        margin-top: 18px
+        img 
+            max-height: 28px
+    ul 
+        display: flex
+        flex-direction: row
+        margin: 0 auto
+        position: absolute
+        left: 50%
+        padding: 0
+        transform: translateX(-50%) translateY(-50%)
+        top: 50%
+        li 
+            margin: 0 10px
+            list-style-type: none
+            a 
+                color: #fff
+                text-transform: uppercase
+    button 
+        outline: none
+        background-color: rgba(255, 255, 255, 0)
+        width: 40px
+        padding: 0
+        border: none
+        position: absolute
+        right: 25px
+        top: 50%
+        transform: translateY(-50%)
+        span 
+            display: block
+            margin: 7px 0
+            width: 40px
+            height: 3px
+            background-color: #fff
+            border-radius: 3px
+
 
 .about 
     min-height: 537px
@@ -105,37 +106,65 @@ nav
     width: 100%
     height: 5px
     background-color: #191919
-.category
+
+
+
+.category 
     min-height: 850px
     background-color: $main_theme
+    padding-bottom: 40px
     &_header 
         @include header
         text-align: center
         margin-top: 66px
-    &_algebra 
-        position: relative
-        img 
-            display: block
-            position: absolute
-            top: 41px
-    .algebra 
-        &_header 
-            @include category_header
-            color: #ce5f5f
-        &_subheader 
+    .wrapper 
+        display: flex
+        flex-direction: row
+        justify-content: center
+        flex-wrap: wrap
+        align-content: center
+        .category_link 
+            color: #fff
+            border-radius: 10px 
+            text-transform: uppercase
+            text-align: center
+            padding-top: 100px
+            font-weight: 700
+            margin: 20px
+            font-size: 20px
+            line-height: 20px
+            width: 220px
+            height: 220px
+            background-color: $second_color
     &_item 
-        max-width: 1038px
-        margin: 0 auto
-
-.category 
-    &_item 
-        max-width: 400px 
+        margin: 20px 20px
+        width: 220px 
         background-color: $second_color
         border-radius: 10px
-        max-height: 400px
+        height: 220px
+    h3 
+        text-align: center
+        text-transform: uppercase
+        font-weight: 500
+        color: $p_color
+        margin: 10px 0 20px 0
+    &_name 
+        color: $pink_color
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 20px
+        line-height: 20px
+        text-align: center
+        margin: 45% 0
+
 footer 
-    max-height: 67px 
     background-color: $second_color
+    min-height: 67px
+    padding-top: 23px
+    img 
+        display: block
+        max-width: 120px
+        margin: 0 auto
 
 
 
